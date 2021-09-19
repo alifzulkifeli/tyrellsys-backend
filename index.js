@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 8008
+const PORT = process.env.PORT || 8008;
 
 
 const cardController = require('./controller/card')
