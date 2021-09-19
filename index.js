@@ -1,9 +1,15 @@
 const express = require('express')
 const app = express()
+const cors = require('cors')
+
 const PORT = process.env.PORT || 8008;
-
-
 const cardController = require('./controller/card')
+
+
+app.use(cors({
+  origin:"*",
+}))
+
 
 app.get('/getCardList/:num', cardController.shuffle);
 
