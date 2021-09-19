@@ -11,8 +11,8 @@ app.get('/', function(req,res){
   return res.send("Yup, the endpoint is working!")
 });
 
-app.listen(port, () => {
-  console.log(`Server running on the : ${port}`)
+app.listen(PORT, () => {
+  console.log(`Server running on the : ${PORT}`)
 })
 
 
