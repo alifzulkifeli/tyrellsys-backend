@@ -7,4 +7,6 @@ Using [Express](https://expressjs.com/) Web Framework and deployed to the [Herok
 A simple REST api for provide list of card in random series by number of player.
 [Demo](https://tyrellsys-test-1.herokuapp.com/getCardList/4)
 
+Endpoint: https://tyrellsys-test-1.herokuapp.com/getCardList/{no of player}
+
 ![alt text](https://github.com/alifzulkifeli/tyrellsys-backend/blob/main/Screenshot%202021-09-19%20at%207.52.06%20PM.png)
